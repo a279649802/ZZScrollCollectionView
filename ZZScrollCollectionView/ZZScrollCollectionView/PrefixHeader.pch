@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  ZZScrollCollectionView
+//
+//  Created by 久其智通 on 2017/8/10.
+//  Copyright © 2017年 none. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+
+#define CURRENT_TRANSFORM_SX 1.2
+
+#define LABEL_BACK_COLOR [UIColor whiteColor]
+#define FONT_COLOR [UIColor colorWithRed:0 green:0 blue:0 alpha:1.0]
+#define FONT_SIZE [NSNumber numberWithInteger:12]
+#define SELECT_FONT_COLOR [UIColor colorWithRed:1.0 green:0 blue:0 alpha:1.0]
+#define SELECT_LINE_COLOR [UIColor colorWithRed:1.0 green:0 blue:0 alpha:1.0]
+
+#endif /* PrefixHeader_pch */
