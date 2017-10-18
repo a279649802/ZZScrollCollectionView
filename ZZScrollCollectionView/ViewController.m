@@ -22,7 +22,6 @@
     tableview.dataSource = self;
     tableview.separatorStyle = UITableViewCellSeparatorStyleNone;
     
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 #pragma mark - UITableViewDataSource
