@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ZZLabel.h"
+#import "ZZViewController.h"
 
 @protocol ZZScrollViewDelegate
 - (void)scrollToItemAtIndexPath:(NSIndexPath *)indexPath atScrollPosition:(UICollectionViewScrollPosition)scrollPosition animated:(BOOL)animated;
