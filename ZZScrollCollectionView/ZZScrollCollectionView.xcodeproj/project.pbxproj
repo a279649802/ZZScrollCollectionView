@@ -10,6 +10,12 @@
 		8614DE9D1F78B5F900618426 /* ZZCollectionViewStyle2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8614DE9C1F78B5F900618426 /* ZZCollectionViewStyle2.m */; };
 		8614DEA01F78F93D00618426 /* ZZCollectionViewStyle3.m in Sources */ = {isa = PBXBuildFile; fileRef = 8614DE9F1F78F93D00618426 /* ZZCollectionViewStyle3.m */; };
 		8614DEA31F79056C00618426 /* ZZScrollViewStyle3.m in Sources */ = {isa = PBXBuildFile; fileRef = 8614DEA21F79056C00618426 /* ZZScrollViewStyle3.m */; };
+		86734EAB1F3BF90D00DE627D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86734EAA1F3BF90D00DE627D /* main.m */; };
+		86734EAE1F3BF90D00DE627D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86734EAD1F3BF90D00DE627D /* AppDelegate.m */; };
+		86734EB11F3BF90D00DE627D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86734EB01F3BF90D00DE627D /* ViewController.m */; };
+		86734EB41F3BF90D00DE627D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86734EB21F3BF90D00DE627D /* Main.storyboard */; };
+		86734EB61F3BF90D00DE627D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86734EB51F3BF90D00DE627D /* Assets.xcassets */; };
+		86734EB91F3BF90D00DE627D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86734EB71F3BF90D00DE627D /* LaunchScreen.storyboard */; };
 		86734EC31F3C05B300DE627D /* ZZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86734EC21F3C05B300DE627D /* ZZViewController.m */; };
 		86734EC61F3C084700DE627D /* ZZScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86734EC51F3C084700DE627D /* ZZScrollView.m */; };
 		86734EC91F3C087A00DE627D /* ZZCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86734EC81F3C087A00DE627D /* ZZCollectionView.m */; };
@@ -26,6 +32,16 @@
 		8614DEA11F79056C00618426 /* ZZScrollViewStyle3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZScrollViewStyle3.h; sourceTree = "<group>"; };
 		8614DEA21F79056C00618426 /* ZZScrollViewStyle3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZScrollViewStyle3.m; sourceTree = "<group>"; };
 		86734EA61F3BF90D00DE627D /* ZZScrollCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZScrollCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86734EAA1F3BF90D00DE627D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86734EAC1F3BF90D00DE627D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86734EAD1F3BF90D00DE627D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86734EAF1F3BF90D00DE627D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86734EB01F3BF90D00DE627D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86734EB31F3BF90D00DE627D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86734EB51F3BF90D00DE627D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86734EB81F3BF90D00DE627D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86734EBA1F3BF90D00DE627D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86734EC01F3C009D00DE627D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		86734EC11F3C05B300DE627D /* ZZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZViewController.h; sourceTree = "<group>"; };
 		86734EC21F3C05B300DE627D /* ZZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZViewController.m; sourceTree = "<group>"; };
 		86734EC41F3C084700DE627D /* ZZScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZScrollView.h; sourceTree = "<group>"; };
@@ -70,10 +86,19 @@
 		86734EA81F3BF90D00DE627D /* ZZScrollCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				86734EAF1F3BF90D00DE627D /* ViewController.h */,
+				86734EB01F3BF90D00DE627D /* ViewController.m */,
 				86734EC11F3C05B300DE627D /* ZZViewController.h */,
 				86734EC21F3C05B300DE627D /* ZZViewController.m */,
 				86CB46BD1F623149002A70E4 /* Scroll */,
 				86CB46BE1F623170002A70E4 /* Collection */,
+				86734EAC1F3BF90D00DE627D /* AppDelegate.h */,
+				86734EAD1F3BF90D00DE627D /* AppDelegate.m */,
+				86734EC01F3C009D00DE627D /* PrefixHeader.pch */,
+				86734EB21F3BF90D00DE627D /* Main.storyboard */,
+				86734EB51F3BF90D00DE627D /* Assets.xcassets */,
+				86734EB71F3BF90D00DE627D /* LaunchScreen.storyboard */,
+				86734EBA1F3BF90D00DE627D /* Info.plist */,
 				86734EA91F3BF90D00DE627D /* Supporting Files */,
 			);
 			path = ZZScrollCollectionView;
@@ -82,6 +107,7 @@
 		86734EA91F3BF90D00DE627D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				86734EAA1F3BF90D00DE627D /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,6 +200,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86734EB91F3BF90D00DE627D /* LaunchScreen.storyboard in Resources */,
+				86734EB61F3BF90D00DE627D /* Assets.xcassets in Resources */,
+				86734EB41F3BF90D00DE627D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +218,36 @@
 				86CB46BC1F615607002A70E4 /* ZZLabel.m in Sources */,
 				8614DEA01F78F93D00618426 /* ZZCollectionViewStyle3.m in Sources */,
 				86734EC31F3C05B300DE627D /* ZZViewController.m in Sources */,
+				86734EB11F3BF90D00DE627D /* ViewController.m in Sources */,
 				86734EC91F3C087A00DE627D /* ZZCollectionView.m in Sources */,
+				86734EAE1F3BF90D00DE627D /* AppDelegate.m in Sources */,
 				86CB46B91F6153B8002A70E4 /* ZZCollectionViewCell.m in Sources */,
 				86734EC61F3C084700DE627D /* ZZScrollView.m in Sources */,
 				8614DEA31F79056C00618426 /* ZZScrollViewStyle3.m in Sources */,
+				86734EAB1F3BF90D00DE627D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86734EB21F3BF90D00DE627D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86734EB31F3BF90D00DE627D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86734EB71F3BF90D00DE627D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86734EB81F3BF90D00DE627D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		86734EBB1F3BF90D00DE627D /* Debug */ = {
