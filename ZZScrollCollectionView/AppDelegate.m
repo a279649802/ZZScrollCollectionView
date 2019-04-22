@@ -27,7 +27,8 @@
     
     self.window.rootViewController = tab;
     [self.window makeKeyAndVisible];
-
+    NSLog(@"test提交了33333");
+    
     
     return YES;
 }
