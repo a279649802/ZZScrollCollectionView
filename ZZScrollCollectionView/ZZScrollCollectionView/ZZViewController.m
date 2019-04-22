@@ -35,7 +35,7 @@
     
     [self SetupCollection];
    
-   
+    NSLog(@"测试测试");
 }
 
 - (void)SetupScroll
